@@ -1,24 +1,30 @@
-h1{
-    color: #c00c84;
+h1 {
+    color: #388e3c;
 }
 
- body{
-    background-color: rgb(186, 196, 196);
- }
+body {
+    background-color: #e8f5e9;
+}
 
 #encabezado {
-background-color: rgb(156, 156, 156);
-height: 150px;
-width: 80%;
-margin: 0 auto;
-border-radius: 10px;
-padding: 20px;
-box-shadow: 10px 10px 5px rgba(0,0,0.5);
-display: flex;
+    background-color: #2e7d32;
+    height: 150px;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0.5);
+    display: flex;
+}
+
+.redes img {
+    width: 25px;
+    height: auto;
+    margin: 3px;
 }
 
 .logo {
-    background-color: #abe7f1;
+    background-color: #a5d6a7;
     width: 15%;
     display: flex;
     justify-content: center;
@@ -31,7 +37,7 @@ display: flex;
 }
 
 .menu {
-    background-color: #737475;
+    background-color: #388e3c;
     width: 65%;
     list-style: none;
 }
@@ -41,7 +47,7 @@ display: flex;
     margin: 0;
     padding: 0;
     display: flex;
-    background-color: rgb(163, 163, 187); 
+    background-color: #43a047;
 }
 
 .menu ul li {
@@ -50,17 +56,74 @@ display: flex;
 }
 
 .menu ul li a {
-    color: white;
+    color: #ffffff;
     text-decoration: none;
 }
 
 .menu ul li a:hover {
-    background-color: rgba(0,0,0.5);
+    background-color: #1b5e20;
     padding: 15px 20px;
 }
 
 .redes {
-    background-color: #f1e5ab;
+    background-color: #a5d6a7;
     width: 20%;
 }
 
+#contenedor {
+    width: 100%;
+    background-color: #c8e6c9;
+    padding: 30px 0;
+}
+
+#cards {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    width: 30%;
+    height: 250px;
+    background-color: #388e3c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    border: 2px solid #1b5e20;
+}
+
+#seccion-grande {
+    width: 90%;
+    height: 300px;
+    background-color: #66bb6a;
+    margin: 40px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 22px;
+    border: 2px solid #1b5e20;
+}
+
+#pie {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #1b5e20;
+    padding: 20px 0;
+}
+
+.pie1,
+.pie2 {
+    width: 40%;
+    height: 80px;
+    background-color: #388e3c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+}
